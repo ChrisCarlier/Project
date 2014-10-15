@@ -1,0 +1,155 @@
+﻿html,body {
+    height:100%;
+    margin:0;
+    padding:0;
+}
+form{
+    height:100%;
+}
+
+#test{
+    background-color:#281b7b;
+    width:25%;
+    height:100%;
+    float:left;
+}
+#test2{
+    float:left;
+    background-color:#8986d2;
+    margin:0;
+    padding:0;
+    width:75%;
+    height:100%;
+}
+
+#default_profil{
+    width:60%;
+    margin-left:20%;
+    margin-top:5%;
+}
+
+#logo{
+    width:60%;
+    margin-left:20%;
+    margin-top:5%;
+}
+#bloc_droit{
+    margin-top:5%;
+    width:100%;
+    text-align:center;
+}
+
+.bouton_parent{
+    background-color:#990707;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:50px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:100%;
+    padding-top:2%;
+    padding-bottom:2%;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+    margin-left:5%;
+    width:25%;
+}
+.bouton_BB{
+     background-color:#990707;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:50px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:100%;
+    padding-top:2%;
+    padding-bottom:2%;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+    margin-left:5%;
+    width:25%;
+}
+.bouton_Connexion{
+     background-color:#8986d2;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:50px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:100%;
+    padding-top:1%;
+    padding-bottom:1%;
+    margin-top:1%;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+    margin-left:3%;
+    width:25%;
+}
+#connect{
+    background-color:#6f6eab;
+    text-align:center;
+    width:35%;
+    padding-top:2%;
+    padding-bottom:2%;
+    margin-left:32%;
+    margin-top:10%;
+    border-radius:10px;
+}
+
+#champ{
+    width:90%;
+    margin-left:5%;
+    margin-top:2%;
+    border:hidden;
+    border-color:#8986d2;
+    background-color:#8986d2;
+    
+}
+#population_table{
+    border: medium solid #281b7b;
+    border-collapse: collapse;
+    width: 90%;
+    margin-left:5%;
+    margin-top:2%;
+}
+tr{
+    text-align:center;
+    font-family: sans-serif;
+    border: thin solid #112954;
+    width: 50%;
+    padding: 5px;
+    text-align: center;
+    background-color: #ffffff;
+}
+#champ tr{
+    background-color: #8986d2;
+}
+th{
+    text-align:center;
+    font-family: monospace;
+    border: thin solid #394863;
+    width: 25%;
+    padding: 5px;
+    background-color: #374250;
+}
+td{
+    color:#000000;
+}
+#info_parent{
+    margin-left:5%;
+}
+#basPage_profil{
+    text-align:center;
+}
+.img_Accueil{
+
+}

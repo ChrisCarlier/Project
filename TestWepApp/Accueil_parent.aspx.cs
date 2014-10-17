@@ -23,5 +23,10 @@ namespace TestWepApp
         {
             Server.Transfer("~/Accueil_parent.aspx");
         }
+
+        protected void Agenda_Click(object sender, EventArgs e)
+        {
+            Server.Transfer("~/Agenda.aspx");
+        }
     }
 }

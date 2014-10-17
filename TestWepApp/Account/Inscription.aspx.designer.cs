@@ -7,54 +7,54 @@
 // </généré automatiquement>
 //------------------------------------------------------------------------------
 
-namespace TestWepApp {
+namespace TestWepApp.Account {
     
     
-    public partial class _Default {
+    public partial class Inscription {
         
         /// <summary>
-        /// Contrôle login.
+        /// Contrôle lNom.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox login;
+        protected global::System.Web.UI.WebControls.Label lNom;
         
         /// <summary>
-        /// Contrôle password.
+        /// Contrôle lPrenom.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox password;
+        protected global::System.Web.UI.WebControls.Label lPrenom;
         
         /// <summary>
-        /// Contrôle b_connexion.
+        /// Contrôle lAdresse.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button b_connexion;
+        protected global::System.Web.UI.WebControls.Label lAdresse;
         
         /// <summary>
-        /// Contrôle b_go.
+        /// Contrôle lLogin.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button b_go;
+        protected global::System.Web.UI.WebControls.Label lLogin;
         
         /// <summary>
-        /// Contrôle hp_inscription.
+        /// Contrôle lPassword.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink hp_inscription;
+        protected global::System.Web.UI.WebControls.Label lPassword;
     }
 }

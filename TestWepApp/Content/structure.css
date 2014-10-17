@@ -151,5 +151,34 @@ td{
     text-align:center;
 }
 .img_Accueil{
+    width:3%;
+}
+#calendar{
+    width:25%;
+    margin-left:37%;
+    margin-top:5%;
+}
 
+#table_rdv{
+    width:50%;
+    margin-left:25%;
+}
+#div_rdv{
+    height:100%;
+    padding:2%;
+    background-color:#586883;
+}
+#title_rdv{
+    font-size:15px;
+    width:40%;
+    text-align:center;
+    margin-left:30%;
+    margin-top:1%;
+    padding-left:1%;
+    font-weight:bold;
+    background-color:#586883;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    padding-top:1%;
+    padding-bottom:1%;
 }

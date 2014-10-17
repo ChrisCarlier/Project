@@ -21,8 +21,10 @@
 
         
         <br />
-        <asp:Button ID="b_inscription" CssClass="bouton_Connexion" runat="server" OnClick="b_inscription_Click" Text="S'inscrire" />
+        
         <asp:Button ID="b_connexion" CssClass="bouton_Connexion" runat="server" OnClick="LogIn" Text="Se connecter" />
         <asp:Button ID="b_go" CssClass="bouton_Connexion" runat="server" OnClick="b_go_Click" Text="GO" />
+        <br />Pas de compte ? 
+        <asp:HyperLink runat="server" ID="hp_inscription" ViewStateMode="Disabled" NavigateUrl="">S'inscrire...</asp:HyperLink>
     </div>
 </asp:Content>

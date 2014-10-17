@@ -9,10 +9,10 @@
             <td><asp:Label ID="lab_tarif" runat="server" Text="Tarif"></asp:Label></td>
         </tr>
         <tr>
-            <td><asp:TextBox ID="rech_nom" class="textbox_rech" runat="server"></asp:TextBox></td>
-            <td><asp:TextBox ID="rech_prenom" class="textbox_rech" runat="server"></asp:TextBox></td>
-            <td><asp:TextBox ID="rech_adresse" class="textbox_rech" runat="server"></asp:TextBox></td>
-            <td><asp:TextBox ID="rech_tarif" class="textbox_rech" runat="server"></asp:TextBox></td>
+            <td><asp:TextBox ID="rech_nom" CssClass="textbox_rech" runat="server"></asp:TextBox></td>
+            <td><asp:TextBox ID="rech_prenom" CssClass="textbox_rech" runat="server"></asp:TextBox></td>
+            <td><asp:TextBox ID="rech_adresse" CssClass="textbox_rech" runat="server"></asp:TextBox></td>
+            <td><asp:TextBox ID="rech_tarif" CssClass="textbox_rech" runat="server"></asp:TextBox></td>
             
         </tr>
         

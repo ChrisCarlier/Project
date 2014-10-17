@@ -6,7 +6,7 @@
 
     <div id="bloc_droit">
         <asp:Button CssClass="bouton_parent" ID="Rech_BBsitter" runat="server" Text="Recherche Babysitter" OnClick="Rech_BBsitter_Click" />
-        <asp:Button CssClass="bouton_parent" ID="Agenda" runat="server" Text="Agenda" />
+        <asp:Button CssClass="bouton_parent" ID="Agenda" runat="server" Text="Agenda" OnClick="Agenda_Click"/>
         <asp:Button CssClass="bouton_parent" ID="Mes_Eval" runat="server" Text="Mes évaluations" />
     </div>
 

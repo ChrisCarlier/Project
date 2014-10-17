@@ -28,5 +28,10 @@ namespace TestWepApp
         {
             Server.Transfer("~/Agenda.aspx");
         }
+
+        protected void Mes_Eval_Click(object sender, EventArgs e)
+        {
+            Server.Transfer("~/Parent_Evaluation.aspx");
+        }
     }
 }

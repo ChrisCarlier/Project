@@ -10,123 +10,141 @@
 namespace TestWepApp {
     
     
-    public partial class Site1 {
+    public partial class Parent_Evaluation {
         
         /// <summary>
-        /// Contrôle nom.
+        /// Contrôle Evalu.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label nom;
+        protected global::System.Web.UI.WebControls.Label Evalu;
         
         /// <summary>
-        /// Contrôle nom_valeur.
+        /// Contrôle NEvalu.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label nom_valeur;
+        protected global::System.Web.UI.WebControls.Label NEvalu;
         
         /// <summary>
-        /// Contrôle prenom.
+        /// Contrôle NomBBEval.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label prenom;
+        protected global::System.Web.UI.WebControls.Label NomBBEval;
         
         /// <summary>
-        /// Contrôle prenom_valeur.
+        /// Contrôle PrenomBBEVal.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label prenom_valeur;
+        protected global::System.Web.UI.WebControls.Label PrenomBBEVal;
         
         /// <summary>
-        /// Contrôle adresse.
+        /// Contrôle PrenomBBEVal_Value.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label adresse;
+        protected global::System.Web.UI.WebControls.Label PrenomBBEVal_Value;
         
         /// <summary>
-        /// Contrôle adresse_valeur.
+        /// Contrôle AdresseBBEVal.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label adresse_valeur;
+        protected global::System.Web.UI.WebControls.Label AdresseBBEVal;
         
         /// <summary>
-        /// Contrôle Tarif.
+        /// Contrôle AdresseBBEVal_Value.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Tarif;
+        protected global::System.Web.UI.WebControls.Label AdresseBBEVal_Value;
         
         /// <summary>
-        /// Contrôle tarif_valeur.
+        /// Contrôle TarifBBEval.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label tarif_valeur;
+        protected global::System.Web.UI.WebControls.Label TarifBBEval;
         
         /// <summary>
-        /// Contrôle Evaluation.
+        /// Contrôle TarifBBEval_Value.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Evaluation;
+        protected global::System.Web.UI.WebControls.Label TarifBBEval_Value;
         
         /// <summary>
-        /// Contrôle Evaluation_Valeur.
+        /// Contrôle NoteBBEval.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Evaluation_Valeur;
+        protected global::System.Web.UI.WebControls.Label NoteBBEval;
         
         /// <summary>
-        /// Contrôle modifier_profil.
+        /// Contrôle NoteBBEval_Value.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button modifier_profil;
+        protected global::System.Web.UI.WebControls.Label NoteBBEval_Value;
         
         /// <summary>
-        /// Contrôle nombre_offre.
+        /// Contrôle MonEval_.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button nombre_offre;
+        protected global::System.Web.UI.WebControls.Label MonEval_;
         
         /// <summary>
-        /// Contrôle contenu_BB.
+        /// Contrôle TextEval.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder contenu_BB;
+        protected global::System.Web.UI.WebControls.TextBox TextEval;
+        
+        /// <summary>
+        /// Contrôle EvalSur.
+        /// </summary>
+        /// <remarks>
+        /// Champ généré automatiquement.
+        /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label EvalSur;
+        
+        /// <summary>
+        /// Contrôle Bouton_Eval.
+        /// </summary>
+        /// <remarks>
+        /// Champ généré automatiquement.
+        /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Bouton_Eval;
     }
 }

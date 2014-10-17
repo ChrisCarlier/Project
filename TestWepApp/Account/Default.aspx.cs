@@ -15,12 +15,12 @@ namespace TestWepApp
         protected void Page_Load(object sender, EventArgs e)
         {
 
-            b_inscription.PostBackUrl = "Register";
+            //b_inscription.PostBackUrl = "Register";
             b_go.PostBackUrl = "../Accueil_Parent";
             var returnUrl = HttpUtility.UrlEncode(Request.QueryString["ReturnUrl"]);
             if (!String.IsNullOrEmpty(returnUrl))
             {
-                b_inscription.PostBackUrl += "?ReturnUrl=" + returnUrl;
+                //b_inscription.PostBackUrl += "?ReturnUrl=" + returnUrl;
             }
              
         }

@@ -55,8 +55,12 @@
                 <asp:Label ID="adresse_valeur" runat="server" Text=""></asp:Label>
                 <br/>
                 <br/>
-                <asp:Label ID="Tarif" runat="server" Text="Nombre enfant : "></asp:Label>
+                <asp:Label ID="Tarif" runat="server" Text="Tarif : "></asp:Label>
                 <asp:Label ID="tarif_valeur" runat="server" Text=""></asp:Label>
+                <br/>
+                <br/>
+                <asp:Label ID="Evaluation" runat="server" Text="Note : "></asp:Label>
+                <asp:Label ID="Evaluation_Valeur" runat="server" Text=" /5"></asp:Label>
                 <br/>
                 <br/>
             </div>
